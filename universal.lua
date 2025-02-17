@@ -1,9 +1,7 @@
-[[-----------------]]
 repeat task.wait() until game.Players.LocalPlayer
 _G.yuzhu = _G.yuzhu or false
 if _G.yuzhu then return end
 _G.yuzhu = true
-[[-----------------]]
 
 if game.PlaceId == 16732694052 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YuzhuScripts/Games/main/fisch.lua"))()
